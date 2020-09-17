@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一加</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    // 宽度     
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    // 
+                    if (clientWidth >= 750) {
+                        docEl.style.fontSize = '100px';
+                    } else {
+                        // 动态设置html的font-size
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    }
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" href="css/移动端.css">
+    <link rel="shortcut icon" href="imgs/标头.PNG" type="image/x-icon">
+</head>
+<body>
+    <div class="top">
+        <a href="#"><img class="top-p1" src="imgs/lie.PNG" alt=""></a>
+        <a href="#"><img class="top-p2" src="imgs/logo.PNG" alt=""></a>
+        <a href="#"><img class="top-p3" src="imgs/shopping.PNG" alt=""></a>
+    </div>
+    <div class="middle1">
+        <img src="https://image01.oneplus.cn/shop/201906/27/357/ebc56544b83c55969d7c5af5a0fcc263.jpg" alt="">
+        <div class="middle1-text"  style="color: #fff;">
+            <div class="head1">永不言弃，追求极致。</div>
+            <div class="middle1-text1">欢迎小罗伯特·唐尼，<br>加入OnePlus大家庭。</div>
+            <div><a href="#" style="color: #fff;"><span class="a1">前往了解</span></a></div>
+        </div>
+    </div>
+    <div class="feng"></div>
+    <div class="middle2">
+        <img src="https://oasisstatics.oneplus.cn/content/dam/oasis/page/homepage/na/Homepage-KV1_small-BLANK-0428.jpg" alt="">
+        <div class="middle1-text">
+            <div class="head2">OnePlus 8</div>
+            <div class="middle2-text1">购机赠好礼，最高价值348元<br><br>￥3999 起</div>
+            <div>
+                <a href="#" class="shopping">立即购买</a>
+            </div>
+            <div><a href="#" style="color: #000;"><span class="a1">了解产品</span></a></div>
+        </div>
+    </div>
+    <div class="feng"></div>
+    <div class="middle2">
+        <img src="https://oasisstatics.oneplus.cn/content/dam/oasis/page/homepage/414launch/cn/8Pro-CN3color_small_1xpng_.jpg" alt="">
+        <div class="middle3-text">
+            <div class="head2">OnePlus 8 Pro</div>
+            <div class="middle2-text1">购机赠好礼，价值3517元<br><br>￥5399 起</div>
+            <div>
+                <a href="#" class="shopping">立即购买</a>
+            </div>
+            <div><a href="#" style="color: #000;"><span class="a1">了解产品</span></a></div>
+        </div>
+    </div>
+    <div class="feng"></div>
+    <div class="middle4">
+        <ul>
+            <li>
+                <a href="#">
+                    <div class="m4 m4-p1"></div>
+                    <div class="m4-text">
+                        <div class="m4-text1">以旧换新</div>
+                        <div class="m4-text2">最高额外补贴 1100元</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="m4 m4-p2"></div>
+                    <div class="m4-text">
+                        <div class="m4-text1">OnePlus 7 Pro</div>
+                        <div class="m4-text2">稀缺现货，立即购买</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" style="color: white;">
+                    <div class="m4 m4-p3"></div>
+                    <div class="m4-text" style="color: #fff;">
+                        <div class="m4-text1">教育优惠</div>
+                        <div class="m4-text2">认证学生、教师或教职员工身份，即可领取教育优惠劵</div>
+                        <div><a href="#" style="color: #fff;"><span class="a1">了解更多</span></a></div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" style="color: black;">
+                    <div class="m4 m4-p4"></div>
+                    <div class="m4-text">
+                        <div class="m4-text1">零售店体验与购买</div>
+                        <div><a href="#" style="color: #000;"><span class="a1">了解更多</span></a></div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="middle5">
+        <div class="row">
+            <div class="item">
+                <a href="#">
+                    <div class="m5">
+                        <img src="https://oasisstatics.oneplus.cn/content/dam/oasis/page/homepage/cn/800x460-1.jpg" alt="">
+                    </div>
+                </a>
+                <div class="item1">
+                    <a href="#" class="a11">
+                        <div>
+                            <h4>产品</h4>
+                            <p>OnePlus 8 系列来了，肉眼可见的出类拔萃。</p>
+                        </div>
+                    </a>
+                    <a href="#" class="a2"><span class="m5-line">了解更多</span></a>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="m5">
+                        <img src="https://oasisstatics.oneplus.cn/content/dam/oasis/page/homepage/cn/800x460-2.jpg" alt="">
+                    </div>
+                </a>
+                <div class="item1">
+                    <a href="#" class="a11">
+                        <div>
+                            <h4>口碑</h4>
+                            <p>OnePlus 8 怎么样，听听首批用户怎么说。</p>
+                        </div>
+                    </a>
+                    <a href="#" class="a2"><span class="m5-line">了解更多</span></a>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="m5">
+                        <img src="https://oasisstatics.oneplus.cn/content/dam/oasis/page/homepage/cn/800x460-3.jpg" alt="">
+                    </div>
+                </a>
+                <div class="item1">
+                    <a href="#" class="a11">
+                        <div>
+                            <h4>活动</h4>
+                            <p>秀出你的OnePlus 8 系列，花式开箱赢新机。</p>
+                        </div>
+                    </a>
+                    <a href="#" class="a2"><span class="m5-line">了解更多</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last1">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="https://oasisstatics.oneplus.cn/content/dam/oasis/default/image-text-list-2/icon-3.svg" alt="">
+                    <span>7天无理由退货</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="http://oasisstatics.oneplus.cn/content/dam/oasis/default/image-text-list-2/icon-1.svg?v=1" alt="">
+                    <span>15天退货保障</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="http://oasisstatics.oneplus.cn/content/dam/oasis/default/image-text-list-2/icon-2.svg" alt="">
+                    <span>30天换货保障</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="http://oasisstatics.oneplus.cn/content/dam/oasis/default/image-text-list-2/icon-4.svg" alt="">
+                    <span>99元全场包邮</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="last2">
+        <ul>
+            <li>一加产品<img src="imgs/jia.PNG" alt=""></li>
+            <li>配件<img src="imgs/jia.PNG" alt=""></li>
+            <li>热门活动<img src="imgs/jia.PNG" alt=""></li>
+            <li>关于一加<img src="imgs/jia.PNG" alt=""></li>
+            <li>服务支持<img src="imgs/jia.PNG" alt=""></li>
+        </ul>
+    </div>
+    <div class="last3">
+        <div class="l3-text1">更多选购方式，请<a href="#">&nbsp;查找零售店&nbsp;</a>或<a href="#">&nbsp;一加微信官方商城</a></div>
+        <div>
+            <div class="l3-text2">
+                <a href="#">
+                    <img src="imgs/电话.PNG" alt="" class="pir1">
+                    <span>400 - 888 - 1111</span>
+                </a>
+                <a href="#">
+                    <img src="imgs/客服.PNG" alt="" class="pir2">
+                    <span>在线客服</span>
+                </a>
+            </div>
+            <p class="l3-text3">周一至周日 9：00 - 22：00</p>
+            <span class="l3-text4"></span>
+            <p class="l3-text5">
+                <a href=""><img src="imgs/微信.PNG" alt=""></a>
+                <a href=""><img src="imgs/微博.PNG" alt=""></a>
+            </p>
+        </div>
+    </div>
+    <div class="last4">
+        <div>
+            <div class="area"><img src="imgs/china.PNG" alt="">中国大陆（简体中文/CNY）</div>
+            <div class="last4-ul">
+                <ul>
+                    <li><a href="#">隐私政策</a></li>
+                        <li><a href="#">用户协议</a></li>
+                        <li><a href="#">竞赛规则</a></li>
+                        <li><a href="#">知识产权政策</a></li>
+                        <li><a href="#">安全问题反馈</a></li>
+                        <li style="border-right: #ffffff;"><a href="#">站点地图</a></li>
+                </ul>
+            </div>
+            <div class="lastlast">
+                <p>
+                    <span>粤ICP备13080605号 | 备案主体编号：44201910955995</span>
+                    <br>
+                    <img src="https://statics.oneplus.cn/ov/assets/images/footer/badge.png" alt="">
+                    <span>粤公网安备 44030402001407号</span>
+                </p>
+                <div>
+                    <a href="#"><img class="p9" src="https://image01.oneplus.cn/shop/201811/13/835/51638e8fd2593c56856278feb794b506.png" alt="" class="p9"></a>
+                    <a href="#"><img class="p9" src="https://statics.oneplus.cn/ov/assets/images/footer/cnnic.png" alt="" class="p9"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

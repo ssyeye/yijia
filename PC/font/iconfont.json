@@ -1,0 +1,23 @@
+{
+  "id": "1935794",
+  "name": "一加",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "一加官网",
+  "glyphs": [
+    {
+      "icon_id": "978354",
+      "name": "微信",
+      "font_class": "gongzhonghao",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "1382585",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    }
+  ]
+}
